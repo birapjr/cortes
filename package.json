@@ -12,5 +12,8 @@
   },
   "scripts": {
     "publish:cortes": "lerna publish --conventional-commits"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
