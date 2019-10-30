@@ -1,6 +1,6 @@
 {
   "name": "@cortes/backend",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Cortes backend microservice",
   "main": "index.js",
   "license": "MIT"
