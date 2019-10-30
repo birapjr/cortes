@@ -3,8 +3,5 @@
   "version": "0.2.1",
   "description": "Cortes backend microservice",
   "main": "src/index.js",
-  "license": "MIT",
-  "scripts": {
-    "publish": "lerna publish --conventional-commits"
-  }
+  "license": "MIT"
 }
