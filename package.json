@@ -1,6 +1,6 @@
 {
   "name": "cortes",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Cortes, a modern docment processing platform",
   "main": "index.js",
   "repository": "https://github.com/birapjr/cortes.git",
@@ -11,6 +11,6 @@
     "lerna": "^3.18.3"
   },
   "scripts": {
-    "publish": "lerna publish --conventional-commits"
+    "publish:cortes": "lerna publish --conventional-commits"
   }
 }
