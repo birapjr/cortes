@@ -1,6 +1,6 @@
 {
   "name": "cortes",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Cortes, a modern docment processing platform",
   "main": "index.js",
   "repository": "https://github.com/birapjr/cortes.git",
