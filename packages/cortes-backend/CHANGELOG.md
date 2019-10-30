@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/birapjr/cortes/compare/cortes-backend@0.3.0...cortes-backend@0.4.0) (2019-10-30)
+
+
+### Features
+
+* **cortes-backend:** create start script ([50fd841](https://github.com/birapjr/cortes/commit/50fd841fef03ecd1b680e3192442a63511734936))
+
+
+
+
+
 # [0.3.0](https://github.com/birapjr/cortes/compare/cortes-backend@0.2.1...cortes-backend@0.3.0) (2019-10-30)
 
 
