@@ -1,0 +1,7 @@
+{
+  "name": "cortes-backend",
+  "version": "0.0.1",
+  "description": "Cortes backend microservice",
+  "main": "index.js",
+  "license": "MIT"
+}
