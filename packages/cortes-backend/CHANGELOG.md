@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/birapjr/cortes/compare/cortes-backend@0.5.0...cortes-backend@0.6.0) (2019-10-30)
+
+
+### Bug Fixes
+
+* **cortes-backend:** typo on message ([8236afe](https://github.com/birapjr/cortes/commit/8236afebaeec10419a5b0d4c4e3c4d942513b72e))
+
+
+### Features
+
+* **cortes-backend:** add input route ([d529527](https://github.com/birapjr/cortes/commit/d5295271c1feea51a07b45e808626bac4d1f6846))
+
+
+
+
+
 # [0.5.0](https://github.com/birapjr/cortes/compare/cortes-backend@0.4.0...cortes-backend@0.5.0) (2019-10-30)
 
 
