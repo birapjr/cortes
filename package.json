@@ -8,5 +8,8 @@
   "license": "MIT",
   "devDependencies": {
     "lerna": "^3.18.3"
+  },
+  "scripts": {
+    "publish": "lerna publish --conventional-commits"
   }
 }
