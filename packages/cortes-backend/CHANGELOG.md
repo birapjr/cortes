@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/birapjr/cortes/compare/cortes-backend@0.4.0...cortes-backend@0.5.0) (2019-10-30)
+
+
+### Features
+
+* **cortes-backend:** added express ([603506f](https://github.com/birapjr/cortes/commit/603506f8f43a38237f56fd59ba8800e225b1ad7a))
+
+
+
+
+
 # [0.4.0](https://github.com/birapjr/cortes/compare/cortes-backend@0.3.0...cortes-backend@0.4.0) (2019-10-30)
 
 
