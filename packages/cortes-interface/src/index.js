@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 app.get('/', (req, res) => {
-    return res.send('Cortes interface int');
+    return res.send('Cortes interface');
 });
 
 app.listen(port, () => console.log(`Cortes interface app listening on port ${port}!`));
