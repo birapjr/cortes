@@ -1,0 +1,7 @@
+{
+  "name": "cortes-admin",
+  "version": "0.0.1",
+  "description": "cortes admin interface",
+  "main": "src/index.js",
+  "license": "MIT"
+}
