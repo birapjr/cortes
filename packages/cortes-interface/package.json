@@ -5,9 +5,18 @@
   "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "dev": "webpack-dev-server --config ./webpack-config.js --env.target_env=local --color --port 5000 --host 0.0.0.0",
+    "start": "yarn dev"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
