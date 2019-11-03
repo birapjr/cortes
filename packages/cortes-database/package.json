@@ -1,0 +1,7 @@
+{
+  "name": "cortes-database",
+  "version": "0.0.1",
+  "description": "The cortes plataform database microservice",
+  "main": "src/index.js",
+  "license": "MIT"
+}
