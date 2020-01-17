@@ -3,5 +3,21 @@
   "version": "0.1.0",
   "description": "The cortes plataform database microservice",
   "main": "src/index.js",
-  "license": "MIT"
+  "files": [
+    "src"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules src/index.js",
+    "start:db": "sudo docker run --name cortes-database -e POSTGRES_PASSWORD=password -d -p 5416:5432 postgres"
+  },
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "cote": "^1.0.0",
+    "pg": "^7.17.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3",
+    "umzug": "^2.2.0"
+  }
 }
