@@ -28,10 +28,10 @@ const init = dbConnectionString => {
   });
   db.sequelize = sequelize; // instance object
 
-  fs.readdirSync(path.join(__dirname, 'node_modules/sysmed-database/src/models'))
+  fs.readdirSync(path.join(__dirname, 'src/models'))
     .filter(file => file.indexOf('.') !== 0)
     .forEach(file => {
-      const model = sequelize.import(path.join(__dirname, 'node_modules/sysmed-database/src/models', file));
+      const model = sequelize.import(path.join(__dirname, 'src/models', file));
       db[model.name] = model;
     });
 

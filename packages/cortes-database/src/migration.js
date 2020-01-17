@@ -15,7 +15,7 @@ const getMigration = db =>
     migrations: {
       params: [db.sequelize.getQueryInterface(), db],
       // The path to the migrations directory.
-      path: path.join(__dirname, 'node_modules/sysmed-database/src/migrations'),
+      path: path.join(__dirname, 'src/migrations'),
       // The pattern that determines whether or not a file is a migration.
       pattern: /^\d+[\w-]+\.cjs$/
     }

@@ -9,6 +9,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "start": "node --experimental-modules src/index.js",
     "start:db": "sudo docker run --name cortes-database -e POSTGRES_PASSWORD=password -d -p 5416:5432 postgres"
   },
   "dependencies": {
