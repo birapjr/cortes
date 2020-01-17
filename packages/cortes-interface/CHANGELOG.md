@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/birapjr/cortes/compare/cortes-interface@0.3.0...cortes-interface@0.4.0) (2020-01-17)
+
+
+### Features
+
+* **cortes-interface:** update yarn.lock to fix security issue ([a67f33e](https://github.com/birapjr/cortes/commit/a67f33e59dc466374173d55a5c50273a15729c20))
+
+
+
+
+
 # [0.3.0](https://github.com/birapjr/cortes/compare/cortes-interface@0.2.0...cortes-interface@0.3.0) (2019-11-03)
 
 

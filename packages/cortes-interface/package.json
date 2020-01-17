@@ -1,6 +1,6 @@
 {
   "name": "cortes-interface",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "The cortes user interface package",
   "main": "src/index.js",
   "license": "MIT",
