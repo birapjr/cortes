@@ -1,0 +1,37 @@
+html
+  head
+    title cortes-interfcae - new project
+  body
+    hi Cortes: New project
+
+    br
+    br
+    p Name: 
+      input(
+        type='text'
+        name='projectName'
+      )
+
+    p Import location: 
+      input(
+        type='text'
+        name='importLocation'
+      )
+
+    p Export location:
+      input(
+        type='text'
+        name='exportLocation'
+      )
+
+    p Enabled:
+      input(
+        type='checkbox'
+        name='enabled'
+      )
+
+    button(type='buttun') Save
+
+    br
+    br
+    a(href='/') Back to home

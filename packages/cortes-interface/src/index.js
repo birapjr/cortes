@@ -1,18 +1,20 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import express from 'express';
 
-render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+const app = express()
+const port = 3000;
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+app.set('view engine', 'pug');
+
+app.get('/', (req, res) => {
+  res.render('index', { title: 'cortes-interface', message: 'Cortes Interface' });
+});
+
+app.get('/createProject', (req, res) => {
+  res.render('createProject');
+});
+
+app.get('/listProjects', (req, res) => {
+  res.render('listProjects');
+});
+
+app.listen(port, () => console.log(`cortes-interface app listening on port ${port}!`))
